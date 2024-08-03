@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import UserSlice, { userAction } from "../store/userSlice";
 import { FaFilter } from "react-icons/fa";
 import { IoReorderThreeOutline } from "react-icons/io5";
+import Logo from "./Image/logo.jpeg";
 
 function Header() {
   const dispatch = useDispatch();
@@ -38,7 +39,7 @@ function Header() {
         <div className="row ">
           <div className="col imagediv">
             <img
-              src="./Image/logo.jpeg"
+              src={Logo}
               alt="Logo"
               className="logo"
               style={{ height: "70px", width: "70px ", margin: "20px" }}
