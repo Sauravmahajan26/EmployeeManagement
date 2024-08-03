@@ -1,0 +1,85 @@
+.container {
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headingemp {
+  font-weight: 600;
+}
+
+.logo {
+  height: 50px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 10px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  font-weight: 600%;
+}
+
+select {
+  padding: 10px;
+}
+
+option {
+  padding: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: #f4f4f4;
+}
+
+th,
+td {
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.profile-pic {
+  height: 40px;
+  border-radius: 50%;
+}
+.filter_icon {
+  margin-right: 20px;
+  margin-top: 10px;
+  color: red;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  margin-top: 40px;
+  margin-left: 480px;
+  color: darkred;
+}
+
+.imagediv {
+  display: flex;
+  flex-direction: column;
+  margin-left: -50px;
+}
+
+.list {
+  padding: 10px;
+  color: grey;
+}
+li {
+  padding: 4px;
+  border-radius: 15px;
+}
