@@ -83,3 +83,85 @@ li {
   padding: 4px;
   border-radius: 15px;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  /* Adjust header for mobile */
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .filters {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  select {
+    padding: 8px;
+    width: 100%;
+  }
+
+  table {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  th,
+  td {
+    padding: 10px;
+  }
+
+  .menu {
+    margin-left: 0;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+  .imagediv {
+    margin-left: 0;
+  }
+
+  .filter_icon {
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further adjustments for very small screens */
+  .headingemp {
+    font-size: 18px;
+  }
+
+  select {
+    padding: 6px;
+  }
+
+  th,
+  td {
+    padding: 8px;
+  }
+
+  h1 {
+    font-size: 18px;
+    margin: 5px;
+  }
+
+  .filter_icon {
+    margin-right: 5px;
+    margin-top: 3px;
+  }
+
+  .profile-pic {
+    height: 30px;
+  }
+}
